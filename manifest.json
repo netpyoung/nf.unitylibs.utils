@@ -55,20 +55,20 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/getting-started.md",
+      "source_relative_path": "docs/index.md",
       "output": {
         ".html": {
-          "relative_path": "docs/getting-started.html"
+          "relative_path": "docs/index.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/index.md",
+      "source_relative_path": "docs/roslyn-diagnostic-codefix.md",
       "output": {
         ".html": {
-          "relative_path": "docs/index.html"
+          "relative_path": "docs/roslyn-diagnostic-codefix.html"
         }
       },
       "version": ""
