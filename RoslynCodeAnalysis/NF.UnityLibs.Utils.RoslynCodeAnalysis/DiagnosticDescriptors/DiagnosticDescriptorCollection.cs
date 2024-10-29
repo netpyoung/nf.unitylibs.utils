@@ -22,5 +22,14 @@ namespace NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticDescriptors
             isEnabledByDefault: true,
             description: "TODO comments should follow the format: TODO(username): content"
         );
+        internal static readonly DiagnosticDescriptor NF5003 = new(
+            id: "NF5003", //
+            title: "Use DateTime.UtcNow instead of DateTime.Now",
+            messageFormat: "Use DateTime.UtcNow instead of DateTime.Now for better performance and consistency", //
+            category: "Usage",
+            DiagnosticSeverity.Error,
+            isEnabledByDefault: true,
+            description: "DateTime.Now can be slower and less consistent across time zones. Use DateTime.UtcNow instead"
+        );
     }
 }
