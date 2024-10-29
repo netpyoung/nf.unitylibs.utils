@@ -12,80 +12,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.DateTimeNowCodeFixProvider.yml",
+      "source_relative_path": "api/NF.UnityLibs.Utils.MathUtil.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.DateTimeNowCodeFixProvider.html"
+          "relative_path": "api/NF.UnityLibs.Utils.MathUtil.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.MathRoundCodeFixProvider.yml",
+      "source_relative_path": "api/NF.UnityLibs.Utils.StringUtil.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.MathRoundCodeFixProvider.html"
+          "relative_path": "api/NF.UnityLibs.Utils.StringUtil.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.TodoStyleCodeFixProvider.yml",
+      "source_relative_path": "api/NF.UnityLibs.Utils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.TodoStyleCodeFixProvider.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.DateTimeNowAnalyzer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.DateTimeNowAnalyzer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.MathRoundAnalyzer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.MathRoundAnalyzer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.TodoStyleAnalyzer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.TodoStyleAnalyzer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.html"
+          "relative_path": "api/NF.UnityLibs.Utils.html"
         }
       },
       "version": ""
