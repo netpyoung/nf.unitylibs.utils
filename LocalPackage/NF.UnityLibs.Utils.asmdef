@@ -1,0 +1,14 @@
+{
+    "name": "NF.UnityLibs.Utils",
+    "rootNamespace": "NF.UnityLibs.Utils",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
