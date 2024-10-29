@@ -1,0 +1,168 @@
+{
+  "source_base_path": "/home/runner/work/nf.unitylibs.utils/nf.unitylibs.utils/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.DateTimeNowCodeFixProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.DateTimeNowCodeFixProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.MathRoundCodeFixProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.MathRoundCodeFixProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.TodoStyleCodeFixProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.TodoStyleCodeFixProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.DateTimeNowAnalyzer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.DateTimeNowAnalyzer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.MathRoundAnalyzer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.MathRoundAnalyzer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.TodoStyleAnalyzer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.TodoStyleAnalyzer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

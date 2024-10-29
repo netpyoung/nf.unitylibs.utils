@@ -1,0 +1,57 @@
+{
+  "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.DateTimeNowCodeFixProvider.html": {
+    "href": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.DateTimeNowCodeFixProvider.html",
+    "title": "Class DateTimeNowCodeFixProvider | mysite",
+    "keywords": "Class DateTimeNowCodeFixProvider Namespace NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders Assembly NF.UnityLibs.Utils.RoslynCodeAnalysis.dll [ExportCodeFixProvider(\"C#\", new string[] { }, Name = \"DateTimeNowCodeFixProvider\")] [Shared] public class DateTimeNowCodeFixProvider : CodeFixProvider Inheritance object CodeFixProvider DateTimeNowCodeFixProvider Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties FixableDiagnosticIds A list of diagnostic IDs that this provider can provide fixes for. public override sealed ImmutableArray<string> FixableDiagnosticIds { get; } Property Value ImmutableArray<string> Methods GetFixAllProvider() Gets an optional FixAllProvider that can fix all/multiple occurrences of diagnostics fixed by this code fix provider. Return null if the provider doesn't support fix all/multiple occurrences. Otherwise, you can return any of the well known fix all providers from WellKnownFixAllProviders or implement your own fix all provider. public override sealed FixAllProvider GetFixAllProvider() Returns FixAllProvider RegisterCodeFixesAsync(CodeFixContext) Computes one or more fixes for the specified CodeFixContext. public override sealed Task RegisterCodeFixesAsync(CodeFixContext context) Parameters context CodeFixContext A CodeFixContext containing context information about the diagnostics to fix. The context must only contain diagnostics with a Id included in the FixableDiagnosticIds for the current provider. Returns Task"
+  },
+  "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.MathRoundCodeFixProvider.html": {
+    "href": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.MathRoundCodeFixProvider.html",
+    "title": "Class MathRoundCodeFixProvider | mysite",
+    "keywords": "Class MathRoundCodeFixProvider Namespace NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders Assembly NF.UnityLibs.Utils.RoslynCodeAnalysis.dll [ExportCodeFixProvider(\"C#\", new string[] { }, Name = \"MathRoundCodeFixProvider\")] [Shared] public class MathRoundCodeFixProvider : CodeFixProvider Inheritance object CodeFixProvider MathRoundCodeFixProvider Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties FixableDiagnosticIds A list of diagnostic IDs that this provider can provide fixes for. public override sealed ImmutableArray<string> FixableDiagnosticIds { get; } Property Value ImmutableArray<string> Methods GetFixAllProvider() Gets an optional FixAllProvider that can fix all/multiple occurrences of diagnostics fixed by this code fix provider. Return null if the provider doesn't support fix all/multiple occurrences. Otherwise, you can return any of the well known fix all providers from WellKnownFixAllProviders or implement your own fix all provider. public override sealed FixAllProvider GetFixAllProvider() Returns FixAllProvider RegisterCodeFixesAsync(CodeFixContext) Computes one or more fixes for the specified CodeFixContext. public override sealed Task RegisterCodeFixesAsync(CodeFixContext context) Parameters context CodeFixContext A CodeFixContext containing context information about the diagnostics to fix. The context must only contain diagnostics with a Id included in the FixableDiagnosticIds for the current provider. Returns Task"
+  },
+  "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.TodoStyleCodeFixProvider.html": {
+    "href": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.TodoStyleCodeFixProvider.html",
+    "title": "Class TodoStyleCodeFixProvider | mysite",
+    "keywords": "Class TodoStyleCodeFixProvider Namespace NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders Assembly NF.UnityLibs.Utils.RoslynCodeAnalysis.dll [ExportCodeFixProvider(\"C#\", new string[] { }, Name = \"TodoStyleCodeFixProvider\")] [Shared] public class TodoStyleCodeFixProvider : CodeFixProvider Inheritance object CodeFixProvider TodoStyleCodeFixProvider Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties FixableDiagnosticIds A list of diagnostic IDs that this provider can provide fixes for. public override sealed ImmutableArray<string> FixableDiagnosticIds { get; } Property Value ImmutableArray<string> Methods GetFixAllProvider() Gets an optional FixAllProvider that can fix all/multiple occurrences of diagnostics fixed by this code fix provider. Return null if the provider doesn't support fix all/multiple occurrences. Otherwise, you can return any of the well known fix all providers from WellKnownFixAllProviders or implement your own fix all provider. public override sealed FixAllProvider GetFixAllProvider() Returns FixAllProvider RegisterCodeFixesAsync(CodeFixContext) Computes one or more fixes for the specified CodeFixContext. public override sealed Task RegisterCodeFixesAsync(CodeFixContext context) Parameters context CodeFixContext A CodeFixContext containing context information about the diagnostics to fix. The context must only contain diagnostics with a Id included in the FixableDiagnosticIds for the current provider. Returns Task"
+  },
+  "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.html": {
+    "href": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders.html",
+    "title": "Namespace NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders | mysite",
+    "keywords": "Namespace NF.UnityLibs.Utils.RoslynCodeAnalysis.CodeFixProviders Classes DateTimeNowCodeFixProvider MathRoundCodeFixProvider TodoStyleCodeFixProvider"
+  },
+  "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.DateTimeNowAnalyzer.html": {
+    "href": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.DateTimeNowAnalyzer.html",
+    "title": "Class DateTimeNowAnalyzer | mysite",
+    "keywords": "Class DateTimeNowAnalyzer Namespace NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers Assembly NF.UnityLibs.Utils.RoslynCodeAnalysis.dll [DiagnosticAnalyzer(\"C#\", new string[] { })] public class DateTimeNowAnalyzer : DiagnosticAnalyzer Inheritance object DiagnosticAnalyzer DateTimeNowAnalyzer Inherited Members DiagnosticAnalyzer.Equals(object) DiagnosticAnalyzer.GetHashCode() DiagnosticAnalyzer.ToString() object.Equals(object, object) object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Properties SupportedDiagnostics Returns a set of descriptors for the diagnostics that this analyzer is capable of producing. public override ImmutableArray<DiagnosticDescriptor> SupportedDiagnostics { get; } Property Value ImmutableArray<DiagnosticDescriptor> Methods Initialize(AnalysisContext) Called once at session start to register actions in the analysis context. public override void Initialize(AnalysisContext context) Parameters context AnalysisContext"
+  },
+  "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.MathRoundAnalyzer.html": {
+    "href": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.MathRoundAnalyzer.html",
+    "title": "Class MathRoundAnalyzer | mysite",
+    "keywords": "Class MathRoundAnalyzer Namespace NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers Assembly NF.UnityLibs.Utils.RoslynCodeAnalysis.dll [DiagnosticAnalyzer(\"C#\", new string[] { })] public class MathRoundAnalyzer : DiagnosticAnalyzer Inheritance object DiagnosticAnalyzer MathRoundAnalyzer Inherited Members DiagnosticAnalyzer.Equals(object) DiagnosticAnalyzer.GetHashCode() DiagnosticAnalyzer.ToString() object.Equals(object, object) object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Properties SupportedDiagnostics Returns a set of descriptors for the diagnostics that this analyzer is capable of producing. public override ImmutableArray<DiagnosticDescriptor> SupportedDiagnostics { get; } Property Value ImmutableArray<DiagnosticDescriptor> Methods Initialize(AnalysisContext) Called once at session start to register actions in the analysis context. public override void Initialize(AnalysisContext context) Parameters context AnalysisContext"
+  },
+  "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.TodoStyleAnalyzer.html": {
+    "href": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.TodoStyleAnalyzer.html",
+    "title": "Class TodoStyleAnalyzer | mysite",
+    "keywords": "Class TodoStyleAnalyzer Namespace NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers Assembly NF.UnityLibs.Utils.RoslynCodeAnalysis.dll [DiagnosticAnalyzer(\"C#\", new string[] { })] public class TodoStyleAnalyzer : DiagnosticAnalyzer Inheritance object DiagnosticAnalyzer TodoStyleAnalyzer Inherited Members DiagnosticAnalyzer.Equals(object) DiagnosticAnalyzer.GetHashCode() DiagnosticAnalyzer.ToString() object.Equals(object, object) object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Properties SupportedDiagnostics Returns a set of descriptors for the diagnostics that this analyzer is capable of producing. public override ImmutableArray<DiagnosticDescriptor> SupportedDiagnostics { get; } Property Value ImmutableArray<DiagnosticDescriptor> Methods Initialize(AnalysisContext) Called once at session start to register actions in the analysis context. public override void Initialize(AnalysisContext context) Parameters context AnalysisContext"
+  },
+  "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.html": {
+    "href": "api/NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers.html",
+    "title": "Namespace NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers | mysite",
+    "keywords": "Namespace NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticAnalyzers Classes DateTimeNowAnalyzer MathRoundAnalyzer TodoStyleAnalyzer"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | mysite",
+    "keywords": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | mysite",
+    "keywords": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | mysite",
+    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}
