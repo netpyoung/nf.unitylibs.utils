@@ -1,0 +1,12 @@
+{
+    "name": "nf.unitylibs.utils",
+    "displayName": "nf.unitylibs.utils",
+    "author": { "name": "netpyoung", "url": "https://netpyoung.github.io/" },
+    "version": "0.0.1",
+    "unity": "",
+    "description": "",
+    "keywords": [],
+    "license": "MIT",
+    "category": "",
+    "dependencies": {}
+}
