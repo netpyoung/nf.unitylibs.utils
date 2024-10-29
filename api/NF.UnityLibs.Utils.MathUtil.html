@@ -156,12 +156,13 @@ Class MathUtil  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="NF_UnityLibs_Utils_MathUtil_Round_Normal_System_Single_" data-uid="NF.UnityLibs.Utils.MathUtil.Round_Normal(System.Single)">
   Round_Normal(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/netpyoung/nf.unitylibs.utils/blob/main/LocalPackage/MathUtil.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/netpyoung/nf.unitylibs.utils/blob/main/LocalPackage/MathUtil.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>.NET의 Math.Round 메서드는 기본적으로 &quot;Banker's Rounding&quot; 방식을 사용. 가장 가까운 짝수로 반올림.</p>
-<pre><code class="lang-cs">Math.Round(2.5); // 결과: 2
-Math.Round(2.5, MidpointRounding.AwayFromZero); // 결과: 3
+  <div class="markdown level1 summary"><p>Round_Normal 은 일반적인 반올림 (Round Half Up).</p>
+<p>.NET의 Math.Round 메서드는 기본적으로 &quot;Banker's Rounding&quot; 방식을 사용. 가장 가까운 짝수로 반올림. 실수하기 쉬움.</p>
+<pre><code class="lang-cs">Math.Round(2.5, MidpointRounding.AwayFromZero); // 결과: 3 | Round Half Up
+Math.Round(2.5);                                // 결과: 2 | Round Half to Even
 </code></pre>
 </div>
   <div class="markdown level1 conceptual"></div>
