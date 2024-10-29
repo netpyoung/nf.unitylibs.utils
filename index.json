@@ -17,12 +17,12 @@
   "docs/getting-started.html": {
     "href": "docs/getting-started.html",
     "title": "Getting Started | nf.unitylibs.utils",
-    "keywords": "Getting Started"
+    "keywords": "Getting Started NF5001 Math.Round => MathUtil.Round_Normal NF5002 TODO(username): content NF5003 DateTime.UtcNow instead of DateTime.Now"
   },
   "docs/index.html": {
     "href": "docs/index.html",
     "title": "Introduction | nf.unitylibs.utils",
-    "keywords": "Introduction"
+    "keywords": "Introduction repo"
   },
   "index.html": {
     "href": "index.html",
