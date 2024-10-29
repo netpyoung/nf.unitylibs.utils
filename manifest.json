@@ -65,10 +65,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/introduction.md",
+      "source_relative_path": "docs/index.md",
       "output": {
         ".html": {
-          "relative_path": "docs/introduction.html"
+          "relative_path": "docs/index.html"
         }
       },
       "version": ""
@@ -87,7 +87,7 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
+      "type": "Redirection",
       "source_relative_path": "index.md",
       "output": {
         ".html": {

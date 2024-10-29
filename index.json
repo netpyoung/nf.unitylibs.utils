@@ -19,14 +19,14 @@
     "title": "Getting Started | nf.unitylibs.utils",
     "keywords": "Getting Started"
   },
-  "docs/introduction.html": {
-    "href": "docs/introduction.html",
+  "docs/index.html": {
+    "href": "docs/index.html",
     "title": "Introduction | nf.unitylibs.utils",
     "keywords": "Introduction"
   },
   "index.html": {
     "href": "index.html",
-    "title": "This is the HOMEPAGE. | nf.unitylibs.utils",
-    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+    "title": "",
+    "keywords": ""
   }
 }
