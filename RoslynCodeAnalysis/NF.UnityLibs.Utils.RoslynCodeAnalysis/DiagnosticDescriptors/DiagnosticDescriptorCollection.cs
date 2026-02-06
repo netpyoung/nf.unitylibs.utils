@@ -31,5 +31,14 @@ namespace NF.UnityLibs.Utils.RoslynCodeAnalysis.DiagnosticDescriptors
             isEnabledByDefault: true,
             description: "DateTime.Now can be slower and less consistent across time zones. Use DateTime.UtcNow instead"
         );
+        internal static readonly DiagnosticDescriptor NF5004 = new(
+            id: "NF5004", //
+            title: "Return value must be used",
+            messageFormat: "Return value of '{0}' must not be ignored", //
+            category: "Usage",
+            DiagnosticSeverity.Error,
+            isEnabledByDefault: true,
+            description: "Do not discard return value"
+        );
     }
 }
