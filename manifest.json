@@ -26,6 +26,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityLibs.Utils.NodiscardAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityLibs.Utils.NodiscardAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NF.UnityLibs.Utils.NodiscardAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/NF.UnityLibs.Utils.StringUtil.yml",
       "output": {
         ".html": {
@@ -36,6 +50,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "NF.UnityLibs.Utils.StringUtil",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NF.UnityLibs.Utils.UnityWebRequestHttpMessageHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NF.UnityLibs.Utils.UnityWebRequestHttpMessageHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NF.UnityLibs.Utils.UnityWebRequestHttpMessageHandler",
       "Summary": null
     },
     {

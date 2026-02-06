@@ -4,15 +4,25 @@
     "title": "Class MathUtil | nf.unitylibs.utils",
     "summary": "Class MathUtil Namespace NF.UnityLibs.Utils public static class MathUtil Inheritance object MathUtil Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Round_Normal(float) Round_Normal 은 일반적인 반올림 (Round Half Up). .NET의 Math.Round 메서드는 기본적으로 \"Banker's Rounding\" 방식을 사용. 가장 가까운 짝수로 반올림. 실수하기 쉬움. Math.Round(2.5, MidpointRounding.AwayFromZero); // 결과: 3 | Round Half Up Math.Round(2.5); // 결과: 2 | Round Half to Even public static float Round_Normal(float v) Parameters v float Returns float"
   },
+  "api/NF.UnityLibs.Utils.NodiscardAttribute.html": {
+    "href": "api/NF.UnityLibs.Utils.NodiscardAttribute.html",
+    "title": "Class NodiscardAttribute | nf.unitylibs.utils",
+    "summary": "Class NodiscardAttribute Namespace NF.UnityLibs.Utils [AttributeUsage(AttributeTargets.Method, Inherited = true, AllowMultiple = false)] public class NodiscardAttribute : Attribute Inheritance object Attribute NodiscardAttribute Inherited Members Attribute.Equals(object) Attribute.GetCustomAttribute(Assembly, Type) Attribute.GetCustomAttribute(Assembly, Type, bool) Attribute.GetCustomAttribute(MemberInfo, Type) Attribute.GetCustomAttribute(MemberInfo, Type, bool) Attribute.GetCustomAttribute(Module, Type) Attribute.GetCustomAttribute(Module, Type, bool) Attribute.GetCustomAttribute(ParameterInfo, Type) Attribute.GetCustomAttribute(ParameterInfo, Type, bool) Attribute.GetCustomAttributes(Assembly) Attribute.GetCustomAttributes(Assembly, bool) Attribute.GetCustomAttributes(Assembly, Type) Attribute.GetCustomAttributes(Assembly, Type, bool) Attribute.GetCustomAttributes(MemberInfo) Attribute.GetCustomAttributes(MemberInfo, bool) Attribute.GetCustomAttributes(MemberInfo, Type) Attribute.GetCustomAttributes(MemberInfo, Type, bool) Attribute.GetCustomAttributes(Module) Attribute.GetCustomAttributes(Module, bool) Attribute.GetCustomAttributes(Module, Type) Attribute.GetCustomAttributes(Module, Type, bool) Attribute.GetCustomAttributes(ParameterInfo) Attribute.GetCustomAttributes(ParameterInfo, bool) Attribute.GetCustomAttributes(ParameterInfo, Type) Attribute.GetCustomAttributes(ParameterInfo, Type, bool) Attribute.GetHashCode() Attribute.IsDefaultAttribute() Attribute.IsDefined(Assembly, Type) Attribute.IsDefined(Assembly, Type, bool) Attribute.IsDefined(MemberInfo, Type) Attribute.IsDefined(MemberInfo, Type, bool) Attribute.IsDefined(Module, Type) Attribute.IsDefined(Module, Type, bool) Attribute.IsDefined(ParameterInfo, Type) Attribute.IsDefined(ParameterInfo, Type, bool) Attribute.Match(object) Attribute.TypeId object.Equals(object, object) object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
   "api/NF.UnityLibs.Utils.StringUtil.html": {
     "href": "api/NF.UnityLibs.Utils.StringUtil.html",
     "title": "Class StringUtil | nf.unitylibs.utils",
     "summary": "Class StringUtil Namespace NF.UnityLibs.Utils public static class StringUtil Inheritance object StringUtil Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
   },
+  "api/NF.UnityLibs.Utils.UnityWebRequestHttpMessageHandler.html": {
+    "href": "api/NF.UnityLibs.Utils.UnityWebRequestHttpMessageHandler.html",
+    "title": "Class UnityWebRequestHttpMessageHandler | nf.unitylibs.utils",
+    "summary": "Class UnityWebRequestHttpMessageHandler Namespace NF.UnityLibs.Utils public sealed class UnityWebRequestHttpMessageHandler : HttpMessageHandler, IDisposable Inheritance object HttpMessageHandler UnityWebRequestHttpMessageHandler Implements IDisposable Inherited Members HttpMessageHandler.Dispose() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Methods SendAsync(HttpRequestMessage, CancellationToken) Send an HTTP request as an asynchronous operation. protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage requestMessage, CancellationToken cancellationToken) Parameters requestMessage HttpRequestMessage cancellationToken CancellationToken The cancellation token to cancel operation. Returns Task<HttpResponseMessage> The task object representing the asynchronous operation. Exceptions ArgumentNullException The request was null. OperationCanceledException The cancellation token was canceled. This exception is stored into the returned task."
+  },
   "api/NF.UnityLibs.Utils.html": {
     "href": "api/NF.UnityLibs.Utils.html",
     "title": "Namespace NF.UnityLibs.Utils | nf.unitylibs.utils",
-    "summary": "Namespace NF.UnityLibs.Utils Classes MathUtil StringUtil"
+    "summary": "Namespace NF.UnityLibs.Utils Classes MathUtil NodiscardAttribute StringUtil UnityWebRequestHttpMessageHandler"
   },
   "docs/index.html": {
     "href": "docs/index.html",
@@ -22,7 +32,7 @@
   "docs/roslyn-diagnostic-codefix.html": {
     "href": "docs/roslyn-diagnostic-codefix.html",
     "title": "Roslyn Diagnostic & CodeFix | nf.unitylibs.utils",
-    "summary": "Roslyn Diagnostic & CodeFix Diagnostic NF5001 Math.Round => MathUtil.Round_Normal NF5002 TODO(username): content NF5003 DateTime.UtcNow instead of DateTime.Now"
+    "summary": "Roslyn Diagnostic & CodeFix Diagnostic NF5001 Math.Round => MathUtil.Round_Normal NF5002 TODO(username): content NF5003 DateTime.UtcNow instead of DateTime.Now NF5004 Return value must be used"
   },
   "index.html": {
     "href": "index.html",

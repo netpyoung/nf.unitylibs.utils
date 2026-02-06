@@ -29,9 +29,34 @@ references:
   isSpec: "True"
   fullName: NF.UnityLibs.Utils.MathUtil.Round_Normal
   nameWithType: MathUtil.Round_Normal
+- uid: NF.UnityLibs.Utils.NodiscardAttribute
+  name: NodiscardAttribute
+  href: api/NF.UnityLibs.Utils.NodiscardAttribute.html
+  commentId: T:NF.UnityLibs.Utils.NodiscardAttribute
+  fullName: NF.UnityLibs.Utils.NodiscardAttribute
+  nameWithType: NodiscardAttribute
 - uid: NF.UnityLibs.Utils.StringUtil
   name: StringUtil
   href: api/NF.UnityLibs.Utils.StringUtil.html
   commentId: T:NF.UnityLibs.Utils.StringUtil
   fullName: NF.UnityLibs.Utils.StringUtil
   nameWithType: StringUtil
+- uid: NF.UnityLibs.Utils.UnityWebRequestHttpMessageHandler
+  name: UnityWebRequestHttpMessageHandler
+  href: api/NF.UnityLibs.Utils.UnityWebRequestHttpMessageHandler.html
+  commentId: T:NF.UnityLibs.Utils.UnityWebRequestHttpMessageHandler
+  fullName: NF.UnityLibs.Utils.UnityWebRequestHttpMessageHandler
+  nameWithType: UnityWebRequestHttpMessageHandler
+- uid: NF.UnityLibs.Utils.UnityWebRequestHttpMessageHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  name: SendAsync(HttpRequestMessage, CancellationToken)
+  href: api/NF.UnityLibs.Utils.UnityWebRequestHttpMessageHandler.html#NF_UnityLibs_Utils_UnityWebRequestHttpMessageHandler_SendAsync_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_
+  commentId: M:NF.UnityLibs.Utils.UnityWebRequestHttpMessageHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  fullName: NF.UnityLibs.Utils.UnityWebRequestHttpMessageHandler.SendAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)
+  nameWithType: UnityWebRequestHttpMessageHandler.SendAsync(HttpRequestMessage, CancellationToken)
+- uid: NF.UnityLibs.Utils.UnityWebRequestHttpMessageHandler.SendAsync*
+  name: SendAsync
+  href: api/NF.UnityLibs.Utils.UnityWebRequestHttpMessageHandler.html#NF_UnityLibs_Utils_UnityWebRequestHttpMessageHandler_SendAsync_
+  commentId: Overload:NF.UnityLibs.Utils.UnityWebRequestHttpMessageHandler.SendAsync
+  isSpec: "True"
+  fullName: NF.UnityLibs.Utils.UnityWebRequestHttpMessageHandler.SendAsync
+  nameWithType: UnityWebRequestHttpMessageHandler.SendAsync
